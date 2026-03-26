@@ -1,0 +1,12 @@
+# Ignore large binary files
+*.whl
+wheels.zip
+
+# Allow split parts and recovery script
+!wheels.zip.part_*
+!unpack.sh
+
+# Ignore virtual environments
+.venv/
+__pycache__/
+*.pyc
